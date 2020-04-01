@@ -43,6 +43,7 @@
 		A0C05873241BB76000EC5E53 /* ZomWelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C05872241BB76000EC5E53 /* ZomWelcomeViewController.xib */; };
 		A0C05877241BBA0500EC5E53 /* ZomAddAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C05876241BBA0500EC5E53 /* ZomAddAccountViewController.xib */; };
 		A0C05879241BBFD100EC5E53 /* ZomEnablePushViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0C05878241BBFD100EC5E53 /* ZomEnablePushViewController.xib */; };
+		A0CA5ED324211DB900B1DA61 /* BridgefyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CA5ED224211DB900B1DA61 /* BridgefyManager.swift */; };
 		C0226BD7BA5E30097BBCC8B6 /* Pods_Zom_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7043637FD388A876828CDF45 /* Pods_Zom_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -139,6 +140,7 @@
 		A0C05872241BB76000EC5E53 /* ZomWelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZomWelcomeViewController.xib; sourceTree = "<group>"; };
 		A0C05876241BBA0500EC5E53 /* ZomAddAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZomAddAccountViewController.xib; sourceTree = "<group>"; };
 		A0C05878241BBFD100EC5E53 /* ZomEnablePushViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZomEnablePushViewController.xib; sourceTree = "<group>"; };
+		A0CA5ED224211DB900B1DA61 /* BridgefyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgefyManager.swift; sourceTree = "<group>"; };
 		BE0B501F5A3C23A8E95BDE43 /* Pods-ShareExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareExtension/Pods-ShareExtension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -279,8 +281,9 @@
 				9286AC6922135EC800002536 /* UI */,
 				924E711F22004CB600B398DD /* UITheme.swift */,
 				924E712122004D4C00B398DD /* Extensions */,
-				924E71322201E3EE00B398DD /* ZomRoomViewController.swift */,
+				A0CA5ED224211DB900B1DA61 /* BridgefyManager.swift */,
 				922D0CFC225B558B00EEDBC4 /* DiscoverViewController+Zom.swift */,
+				924E71322201E3EE00B398DD /* ZomRoomViewController.swift */,
 				92A0AEFF2282C0EA00DDC988 /* ZomWelcomeViewController.swift */,
 				92B0D71422424A9B0057154E /* ZomPickColorViewController.swift */,
 				92B0D71622424C6C0057154E /* ZomPickColorViewController.storyboard */,
@@ -578,6 +581,7 @@
 				92B0D71D2242552B0057154E /* ZomBotCell.swift in Sources */,
 				92A0AF042282CEDF00DDC988 /* Bundle+Zom.swift in Sources */,
 				92AF46C72264840700DF9257 /* MockData.swift in Sources */,
+				A0CA5ED324211DB900B1DA61 /* BridgefyManager.swift in Sources */,
 				92E8E64D23ED586B00070B9B /* ZomTheme.swift in Sources */,
 				922D0CFD225B558C00EEDBC4 /* DiscoverViewController+Zom.swift in Sources */,
 				924E71332201E3EE00B398DD /* ZomRoomViewController.swift in Sources */,

@@ -64,6 +64,12 @@ class AppDelegate: BaseAppDelegate {
         setUp()
         super.application(application, didReceiveRemoteNotification: userInfo, fetchCompletionHandler: completionHandler)
     }
+
+    override func applicationWillTerminate(_ application: UIApplication) {
+        BridgefyManager.shared.stop()
+
+        super.applicationWillTerminate(application)
+    }
     
     /**
      Listen to events when storyboard view controllers are instantiated. This allows us to override specific styles, set delegates etc.
@@ -104,6 +110,8 @@ class AppDelegate: BaseAppDelegate {
         }
         
         StickerManager.stickersFolderPath = Bundle.main.resourcePath! + "/Stickers"
+
+        BridgefyManager.shared.start()
     }
     
     // Override Theme to create custom room view controllers!

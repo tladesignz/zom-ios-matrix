@@ -15,6 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - BarcodeScanner (4.1.4)
+  - BFTransmitter (0.1.33)
   - cmark (0.24.1)
   - CrossroadRegex (1.1.0)
   - DTCoreText (1.6.23):
@@ -152,15 +153,17 @@ PODS:
 
 DEPENDENCIES:
   - BarcodeScanner (from `https://github.com/htothee/BarcodeScanner.git`)
-  - Keanu (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `848c5bdf`)
-  - KeanuCore (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `848c5bdf`)
-  - KeanuExtension (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `848c5bdf`)
+  - BFTransmitter
+  - Keanu (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `9678e1c1`)
+  - KeanuCore (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `9678e1c1`)
+  - KeanuExtension (from `https://gitlab.com/keanuapp/keanuapp-ios.git`, commit `9678e1c1`)
   - QRCode (from `https://github.com/brackendev/QRCode.git`)
   - RichEditorView (from `https://gitlab.com/keanuapp/keanuapp-ios-richeditorview.git`, branch `build_fixes`)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - BFTransmitter
     - cmark
     - CrossroadRegex
     - DTCoreText
@@ -192,13 +195,13 @@ EXTERNAL SOURCES:
   BarcodeScanner:
     :git: https://github.com/htothee/BarcodeScanner.git
   Keanu:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   KeanuCore:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   KeanuExtension:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   QRCode:
     :git: https://github.com/brackendev/QRCode.git
@@ -211,13 +214,13 @@ CHECKOUT OPTIONS:
     :commit: fe7835d344be6190d66fa7994fa593fd4f66dd31
     :git: https://github.com/htothee/BarcodeScanner.git
   Keanu:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   KeanuCore:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   KeanuExtension:
-    :commit: 848c5bdf
+    :commit: 9678e1c1
     :git: https://gitlab.com/keanuapp/keanuapp-ios.git
   QRCode:
     :commit: e267650e0a6db653d57b149530fcfa3fa660f632
@@ -229,6 +232,7 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BarcodeScanner: a29f55c0bb367a73aa9d744c1af6ed7ca7531984
+  BFTransmitter: 45c27a15fa9a97f650e02440726a5444faea35b4
   cmark: 1d9ad0375e3b9fa281732e992467903606015520
   CrossroadRegex: 5eaadb3f7b4014728f1cbd1014756b126c1dbd9a
   DTCoreText: 67023bb51b26711d5f640c851f4845aea14c24c9
@@ -261,6 +265,6 @@ SPEC CHECKSUMS:
   SwiftUTI: e83d65dbe9fba0a0ff7cc9031cd30b2d82acebef
   ViewRow: 8da541e9c019f3be63f4e28f311a62cac2045ecf
 
-PODFILE CHECKSUM: 9152cc9f73c6af3dbf26fd691e2b2dec67b8f9f0
+PODFILE CHECKSUM: 688de715596022b045fb45bc0b0b0b9900274462
 
 COCOAPODS: 1.9.1

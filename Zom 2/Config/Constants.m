@@ -41,4 +41,8 @@
     return MACRO_STRING(KEANU_USE_NEW_VERIFICATION_BETA);
 }
 
++ (NSString *) bridgefyApiKey {
+    return MACRO_STRING(BRIDGEFY_API_KEY);
+}
+
 @end

@@ -24,4 +24,6 @@
 
 @property (class, nonatomic, assign, readonly) NSString *useNewVerificationBeta;
 
+@property (class, nonatomic, assign, readonly) NSString *bridgefyApiKey;
+
 @end
